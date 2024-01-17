@@ -65,3 +65,4 @@
               // Adjust angles for collision response
               const angle = Math.atan2(dy, dx);
               this.angle = angle + Math.PI / 2;
+              otherParticle.angle = angle - Math.PI / 2;
