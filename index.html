@@ -44,3 +44,4 @@
         this.y += Math.sin(this.angle) * this.speed;
 
         // Wrap particles around the canvas
+        if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
